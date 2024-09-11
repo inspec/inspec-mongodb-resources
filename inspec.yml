@@ -1,0 +1,10 @@
+name: inspec-mongodb-resources
+title: Inspec Mongodb Resources
+maintainer: InSpec Core Maintainers
+copyright: Progress Software Corporation
+copyright_email: inspec@progress.com
+license: Apache-2.0
+summary: Inspec Mongodb Resources in a Gem
+version: 0.1.0
+supports:
+  platform: os
