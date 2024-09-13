@@ -40,10 +40,4 @@ Gem::Specification.new do |spec|
   # This plugin uses InSpec 7 Resource Pack Plugins
   spec.add_dependency "inspec-core", ">= 7.0"
   spec.add_dependency "mongo", "= 2.13.2" # 2.14 introduces a broken symlink in mongo-2.14.0/spec/support/ocsp
-  spec.add_dependency "tomlrb", "1.3.0"
-  spec.add_dependency "concurrent-ruby", "1.3.2"
-  spec.add_dependency "parallel", "1.25.0"
-  spec.add_dependency "unicode-display_width", "2.3.0"
-  spec.add_dependency "net-ssh", "7.2.3"
-  spec.add_dependency "train-core", "3.12.7"
 end
