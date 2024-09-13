@@ -1,0 +1,14 @@
+name: inspec-mongodb-resources-resource-pack
+title: InSpec Profile
+maintainer: Progress Chef
+copyright: Progress Chef
+copyright_email: you@example.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  platform: os
+depends:
+  - name: inspec-mongodb-resources
+    # gem: inspec-mongodb-resources
+    path: ../../.
