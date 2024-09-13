@@ -1,6 +1,6 @@
 require "inspec/resource"
 
-module InspecPlugins::MongoDBResources
+module InspecPlugins::MongodbResources
   # This class will provide the actual CLI implementation.
   # Its superclass is provided by another call to Inspec.plugin,
   # this time with two args.  The first arg specifies we are requesting

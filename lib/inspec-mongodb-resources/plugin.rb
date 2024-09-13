@@ -16,7 +16,7 @@ module InspecPlugins
   # Pick a reasonable namespace here for your plugin. A reasonable choice
   # would be the CamelCase version of your plugin gem name.
   # inspec-test-resources => TestResources
-  module MongoDBResources
+  module MongodbResources
     # This simple class handles the plugin definition, so calling it simply Plugin is OK.
     #   Inspec.plugin returns various Classes, intended to be superclasses for various
     # plugin components. Here, the one-arg form gives you the Plugin Definition superclass,
@@ -35,7 +35,7 @@ module InspecPlugins
 
         # Having loaded our functionality, return a class that represents the plugin.
         # Reserved for future use.
-        InspecPlugins::MongoDBResources::ResourcePack
+        InspecPlugins::MongodbResources::ResourcePack
       end
     end
   end
