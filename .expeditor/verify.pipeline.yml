@@ -1,7 +1,5 @@
 ---
 expeditor:
-  cached_folders:
-    - vendor
   defaults:
     buildkite:
       retry:
@@ -13,7 +11,8 @@ steps:
 
 - label: lint-chefstyle
   command:
-    - /workdir/.expeditor/buildkite/verify.sh "rake style"
+    - chmod +x .expeditor/buildkite/verify.sh
+    - .expeditor/buildkite/verify.sh "rake style"
   expeditor:
     executor:
       docker:
@@ -21,6 +20,7 @@ steps:
 
 - label: run-specs-ruby-3.1
   command:
+    - chmod +x .expeditor/buildkite/verify.sh
     - /workdir/.expeditor/buildkite/verify.sh "rake test"
   expeditor:
     executor:
