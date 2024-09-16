@@ -1,7 +1,7 @@
 require "inspec/resources/json"
 require "inspec-mongodb-resources/resources/mongodb"
 
-class MongodbConf < Inspec::Resources::JsonConfig
+class MongodbConf < ::Inspec::Resources::JsonConfig
   name "mongodb_conf"
   supports platform: "unix"
   supports platform: "windows"
