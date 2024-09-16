@@ -5,6 +5,5 @@ require "inspec/resource"
 require "mocha/minitest"
 
 class Minitest::Test
-  def setup
-  end
+  def setup; end
 end
