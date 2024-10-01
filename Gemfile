@@ -1,15 +1,14 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
+gem "inspec", git: "https://github.com/inspec/inspec", branch: "inspec-7"
+gem "inspec-bin", git: "https://github.com/inspec/inspec", branch: "inspec-7"
 
-# TODO: Update the following dependencies to the InSpec 7.0+ versions when they are released
-gem "inspec-bin", git: "https://github.com/inspec/inspec", branch: "team/gem-based-resource-packs"
-gem "inspec", git: "https://github.com/inspec/inspec", branch: "team/gem-based-resource-packs"
-
-group :development, :test do
+group :test do
+  gem "byebug"
   gem "chefstyle"
   gem "minitest"
-  gem "minitest-sprint"
-  gem "mocha"
   gem "m"
-  gem "byebug"
+  gem "mocha"
   gem "rake"
 end

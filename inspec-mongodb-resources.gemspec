@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.version       = InspecPlugins::MongodbResources::VERSION
   spec.authors       = ["InSpec Core Maintainers"]
   spec.email         = ["inspec@progress.com"]
-  spec.summary       = "MongoDB InSpec Resources in a Gem"
-  spec.description   = "Contains InSpec 7.0+ resources fo interacting with MongoDB."
+  spec.summary       = "InSpec mongodb Resources in a Gem"
+  spec.description   = "Contains InSpec 7.0+ resources fo interacting with Mongodb Resources."
   spec.homepage      = "https://github.com/inspec/inspec-mongodb-resources"
   spec.license       = "Apache-2.0"
 
@@ -39,5 +39,4 @@ Gem::Specification.new do |spec|
 
   # This plugin uses InSpec 7 Resource Pack Plugins
   spec.add_dependency "inspec-core", ">= 7.0"
-  spec.add_dependency "mongo", "= 2.13.2" # 2.14 introduces a broken symlink in mongo-2.14.0/spec/support/ocsp
 end
