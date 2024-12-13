@@ -2,7 +2,7 @@
 
 Mongodb InSpec Resources in a Gem
 
-This repository contains the InSpec Docker resources, formerly contained in InSpec Core. In InSpec 7+, these resources are available in a gem, `inspec-mongodb-resources`.
+This repository contains the InSpec Mongodb resources, formerly contained in InSpec Core. In InSpec 7+, these resources are available in a gem, `inspec-mongodb-resources`.
 
 ## Usage
 
