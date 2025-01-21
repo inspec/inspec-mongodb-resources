@@ -3,6 +3,6 @@
 # to learn the current version.
 module InspecPlugins
   module MongodbResources
-    VERSION = "0.1.6".freeze
+    VERSION = "0.1.7".freeze
   end
 end
