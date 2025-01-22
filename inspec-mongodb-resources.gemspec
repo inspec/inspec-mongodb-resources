@@ -40,5 +40,5 @@ Gem::Specification.new do |spec|
   # This plugin uses InSpec 7 Resource Pack Plugins
   spec.add_dependency "inspec-core", ">= 7.0"
 
-  spec.add_dependency "mongo", "= 2.13.2" # 2.14 introduces a broken symlink in mongo-2.14.0/spec/support/ocsp
+  spec.add_dependency "mongo", "= 2.21.0" # 2.14 introduces a broken symlink in mongo-2.14.0/spec/support/ocsp
 end
