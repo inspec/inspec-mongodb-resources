@@ -13,4 +13,5 @@ group :test do
   gem "rake"
   gem "simplecov"
   gem "simplecov_json_formatter"
+  gem "mongo", "= 2.13.2" # 2.14 introduces a broken symlink in mongo-2.14.0/spec/support/ocsp
 end
