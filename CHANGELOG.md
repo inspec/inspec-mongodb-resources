@@ -1,14 +1,15 @@
-<!-- latest_release 0.1.7 -->
-## [0.1.7](https://github.com/inspec/inspec-mongodb-resources/tree/0.1.7) (2025-01-21)
+<!-- latest_release 0.1.8 -->
+## [0.1.8](https://github.com/inspec/inspec-mongodb-resources/tree/0.1.8) (2025-03-21)
 
 #### Merged Pull Requests
-- chore: add mongo dependency to the gemspec file [#9](https://github.com/inspec/inspec-mongodb-resources/pull/9) ([ahasunos](https://github.com/ahasunos))
+- dep: add gemspec dependency in our Gemfile [#13](https://github.com/inspec/inspec-mongodb-resources/pull/13) ([ahasunos](https://github.com/ahasunos))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- dep: add gemspec dependency in our Gemfile [#13](https://github.com/inspec/inspec-mongodb-resources/pull/13) ([ahasunos](https://github.com/ahasunos)) <!-- 0.1.8 -->
 - chore: add mongo dependency to the gemspec file [#9](https://github.com/inspec/inspec-mongodb-resources/pull/9) ([ahasunos](https://github.com/ahasunos)) <!-- 0.1.7 -->
 - CHEF-18211-Export test results to sonar [#8](https://github.com/inspec/inspec-mongodb-resources/pull/8) ([balasubramanian-s](https://github.com/balasubramanian-s)) <!-- 0.1.6 -->
 - CHEF-17304-Enable coverage pipelines [#7](https://github.com/inspec/inspec-mongodb-resources/pull/7) ([balasubramanian-s](https://github.com/balasubramanian-s)) <!-- 0.1.5 -->
