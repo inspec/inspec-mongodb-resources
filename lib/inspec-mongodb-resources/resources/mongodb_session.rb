@@ -79,7 +79,7 @@ class MongodbSession < Inspec.resource(1)
       }
     options[:auth_mech_properties] = @auth_mech_properties unless @auth_mech_properties.empty?
     options[:ssl] = @ssl
-    opitons[:ssl_key] = @ssl_key unless @ssl_key.nil?
+    options[:ssl_key] = @ssl_key unless @ssl_key.nil?
     options[:ssl_cert] = @ssl_cert unless @ssl_cert.nil?
     options[:ssl_ca_cert] = @ssl_ca_cert unless @ssl_ca_cert.nil?
 
