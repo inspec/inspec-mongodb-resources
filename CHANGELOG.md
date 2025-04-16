@@ -1,14 +1,15 @@
-<!-- latest_release 7.0.0 -->
-## [7.0.0](https://github.com/inspec/inspec-mongodb-resources/tree/7.0.0) (2025-04-01)
+<!-- latest_release 7.1.0 -->
+## [7.1.0](https://github.com/inspec/inspec-mongodb-resources/tree/7.1.0) (2025-04-16)
 
 #### Merged Pull Requests
-- CHEF-18512: Sync version with InSpec major version [#16](https://github.com/inspec/inspec-mongodb-resources/pull/16) ([ahasunos](https://github.com/ahasunos))
+- CHEF-18375: Add support for the resource pack with ruby 3.4.2 [#11](https://github.com/inspec/inspec-mongodb-resources/pull/11) ([ahasunos](https://github.com/ahasunos))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- CHEF-18375: Add support for the resource pack with ruby 3.4.2 [#11](https://github.com/inspec/inspec-mongodb-resources/pull/11) ([ahasunos](https://github.com/ahasunos)) <!-- 7.1.0 -->
 - CHEF-18512: Sync version with InSpec major version [#16](https://github.com/inspec/inspec-mongodb-resources/pull/16) ([ahasunos](https://github.com/ahasunos)) <!-- 7.0.0 -->
 - fix typo in options [#15](https://github.com/inspec/inspec-mongodb-resources/pull/15) ([sathish-progress](https://github.com/sathish-progress)) <!-- 0.2.0 -->
 - dep: add gemspec dependency in our Gemfile [#13](https://github.com/inspec/inspec-mongodb-resources/pull/13) ([ahasunos](https://github.com/ahasunos)) <!-- 0.1.8 -->
