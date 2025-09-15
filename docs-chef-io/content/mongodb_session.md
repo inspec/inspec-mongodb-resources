@@ -2,30 +2,25 @@
 title = "mongodb_session resource"
 draft = false
 gh_repo = "inspec"
-platform = "os"
+platform = "mongodb"
 
-[menu]
-  [menu.inspec]
+[menu.mongodb]
     title = "mongodb_session"
-    identifier = "inspec/resources/os/mongodb_session.md mongodb_session resource"
-    parent = "inspec/resources/os"
+    identifier = "inspec/resources/mongodb/mongodb_session.md mongodb_session resource"
+    parent = "inspec/resources/mongodb"
 +++
 
 Use the `mongodb_session` Chef InSpec audit resource to run MongoDB command against a MongoDB Database.
-
-## Availability
-
-### Install
-
-{{< readfile file="content/inspec/reusable/md/inspec_installation.md" >}}
 
 ## Syntax
 
 A `mongodb_session` resource block declares the `user`, `password`, and `database` to use for the session and then the command to be run:
 
-  describe mongodb_session(user: "username", password: "password", database: "test").query(key: value) do
-    its("params") { should match(/expected-result/) }
-  end
+```ruby
+describe mongodb_session(user: "username", password: "password", database: "test").query(key: value) do
+  its("params") { should match(/expected-result/) }
+end
+```
 
 where
 
@@ -85,24 +80,30 @@ This resource uses the [MongoDB Ruby Driver](https://docs.mongodb.com/ruby-drive
 
 The following examples show how to use this Chef InSpec audit resource.
 
-### Test the roles information using the `rolesInfo` command in MongoDB
+Test the roles information using the `rolesInfo` command in MongoDB:
 
-    describe mongodb_session(user: "foo", password: "bar", database: "test").query(rolesInfo: "dbAdmin").params["roles"].first do
-      its(["role"]) { should eq "dbAdmin" }
-    end
+```ruby
+describe mongodb_session(user: "foo", password: "bar", database: "test").query(rolesInfo: "dbAdmin").params["roles"].first do
+  its(["role"]) { should eq "dbAdmin" }
+end
+```
 
-### Test the MongoDB user role
+Test the MongoDB user role:
 
-    describe mongodb_session(user: "foo", password: "bar", database: "test").query(usersInfo: "foo").params["users"].first["roles"].first do
-      its(["role"]) { should eq "readWrite" }
-    end
+```ruby
+describe mongodb_session(user: "foo", password: "bar", database: "test").query(usersInfo: "foo").params["users"].first["roles"].first do
+  its(["role"]) { should eq "readWrite" }
+end
+```
 
-### Test the database parameters
+Test the database parameters:
 
-    describe mongodb_session(user: "foo", password: "bar", database: "test").query(rolesInfo: "dbAdmin") do
-      its("params") { should_not be_empty }
-      its("params") { should include "roles" }
-    end
+```ruby
+describe mongodb_session(user: "foo", password: "bar", database: "test").query(rolesInfo: "dbAdmin") do
+  its("params") { should_not be_empty }
+  its("params") { should include "roles" }
+end
+```
 
 ## Matchers
 
