@@ -1,8 +1,6 @@
 +++
 title = "mongodb_session resource"
 draft = false
-gh_repo = "inspec"
-platform = "mongodb"
 
 [menu.mongodb]
     title = "mongodb_session"

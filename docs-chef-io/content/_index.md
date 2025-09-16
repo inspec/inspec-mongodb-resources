@@ -1,20 +1,18 @@
 +++
-title = "About Chef InSpec MongoDB resources"
-platform = "mongodb"
+title = "About the Chef InSpec MongoDB resource pack"
 draft = false
-linkTitle = "MongoDB resources"
-summary = "Chef InSpec resources for auditing MongoDB databases and configurations"
-
+linkTitle = "MongoDB resource pack"
+summary = "Chef InSpec resources for auditing MongoDB databases and configurations."
 
 [cascade]
   [cascade.params]
-    gh_repo = "inspec-mongodb-resources"
     platform = "mongodb"
 
 [menu.mongodb]
-title = "About resources"
-identifier = "inspec/resources/mongodb/about"
-parent = "inspec/resources/mongodb"
+  title = "About MongoDB resources"
+  identifier = "inspec/resources/mongodb/about"
+  parent = "inspec/resources/mongodb"
+  weight = 10
 +++
 
 The Chef InSpec MongoDB resources allow you to audit MongoDB database configurations, user permissions, and security settings.
