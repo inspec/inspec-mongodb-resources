@@ -1,14 +1,15 @@
-<!-- latest_release 7.1.4 -->
-## [7.1.4](https://github.com/inspec/inspec-mongodb-resources/tree/7.1.4) (2026-04-27)
+<!-- latest_release 7.1.5 -->
+## [7.1.5](https://github.com/inspec/inspec-mongodb-resources/tree/7.1.5) (2026-04-27)
 
 #### Merged Pull Requests
-- Added config for private rubygem server [#33](https://github.com/inspec/inspec-mongodb-resources/pull/33) ([Nik08](https://github.com/Nik08))
+- Fix config formatting for private rubygem server [#34](https://github.com/inspec/inspec-mongodb-resources/pull/34) ([Nik08](https://github.com/Nik08))
 <!-- latest_release -->
 
 <!-- release_rollup since=7.1.2 -->
 ### Changes since 7.1.2 release
 
 #### Merged Pull Requests
+- Fix config formatting for private rubygem server [#34](https://github.com/inspec/inspec-mongodb-resources/pull/34) ([Nik08](https://github.com/Nik08)) <!-- 7.1.5 -->
 - Added config for private rubygem server [#33](https://github.com/inspec/inspec-mongodb-resources/pull/33) ([Nik08](https://github.com/Nik08)) <!-- 7.1.4 -->
 - Remove minitest/unit require incompatible with Minitest 6 [#32](https://github.com/inspec/inspec-mongodb-resources/pull/32) ([Nik08](https://github.com/Nik08)) <!-- 7.1.3 -->
 <!-- release_rollup -->
