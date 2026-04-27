@@ -1,7 +1,15 @@
-<!-- latest_release -->
+<!-- latest_release 7.1.3 -->
+## [7.1.3](https://github.com/inspec/inspec-mongodb-resources/tree/7.1.3) (2026-04-27)
+
+#### Merged Pull Requests
+- Remove minitest/unit require incompatible with Minitest 6 [#32](https://github.com/inspec/inspec-mongodb-resources/pull/32) ([Nik08](https://github.com/Nik08))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=7.1.2 -->
+### Changes since 7.1.2 release
+
+#### Merged Pull Requests
+- Remove minitest/unit require incompatible with Minitest 6 [#32](https://github.com/inspec/inspec-mongodb-resources/pull/32) ([Nik08](https://github.com/Nik08)) <!-- 7.1.3 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
@@ -22,4 +30,3 @@
 - Expeditor: Update config for gem release [#20](https://github.com/inspec/inspec-mongodb-resources/pull/20) ([balasubramanian-s](https://github.com/balasubramanian-s))
 - chore(deps): update mongo requirement from = 2.13.2 to = 2.21.3 [#21](https://github.com/inspec/inspec-mongodb-resources/pull/21) ([dependabot[bot]](https://github.com/dependabot[bot]))
 <!-- latest_stable_release -->
-
