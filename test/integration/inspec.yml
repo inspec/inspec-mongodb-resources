@@ -1,7 +1,7 @@
 name: inspec-mongodb-resources-resource-pack
 title: InSpec Profile
 maintainer: Progress Chef
-copyright: Progress Chef
+copyright: Copyright (c) 2024-2025 Progress Software Corporation and/or its subsidiaries or affiliates. All Rights Reserved.
 copyright_email: you@example.com
 license: Apache-2.0
 summary: An InSpec Compliance Profile

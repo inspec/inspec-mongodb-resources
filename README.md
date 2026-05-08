@@ -14,3 +14,6 @@ depends:
     gem: inspec-mongodb-resources
 ```
 
+# Copyright
+
+See [COPYRIGHT.md](./COPYRIGHT.md).
